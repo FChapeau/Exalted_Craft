@@ -24,7 +24,6 @@ Thumbs.db
 #manual version override
 version.properties
 #eclipse stuffs
-#eclipse stuffs
 /.classpath
 /.project
 /.settings/
@@ -35,3 +34,6 @@ version.properties
 /logs/
 options.txt
 /saves/
+#build/test stuff
+/eclipse/
+/out/
