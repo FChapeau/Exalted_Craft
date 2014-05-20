@@ -1,6 +1,7 @@
 package ca.chapeau.exaltation;
 
 import ca.chapeau.exaltation.magicalmaterials.Ingot;
+import ca.chapeau.exaltation.magicalmaterials.Ore;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
@@ -29,12 +30,16 @@ public class Exaltation {
 
     //Item declarations
     public static Ingot ingot;
+    public static Ore ore;
 
     @EventHandler
     public void PreInit (FMLPreInitializationEvent event)
     {
         ingot = new Ingot();
         GameRegistry.registerItem(ingot, ingot.getUnlocalizedName());
+
+        ore = new Ore();
+        GameRegistry.registerBlock(ore, "ore");
     }
 
     @EventHandler
