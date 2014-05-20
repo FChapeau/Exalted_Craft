@@ -34,7 +34,13 @@ public class Exaltation {
     public void PreInit (FMLPreInitializationEvent event)
     {
         ingot = new Ingot();
-        GameRegistry.registerItem(ingot, ingot.getUnlocalizedName());
+        GameRegistry.registerItem(ingot, "materials");
+
+//	    for (int i = 0; i < Ingot.NumberOfMagicalMaterials; i++)
+//	    {
+//		    ItemStack itemStack = new ItemStack(ingot, 1, i);
+//			GameRegistry.registerItem(new Ingot(), ingot.getUnlocalizedName(itemStack));
+//	    }
     }
 
     @EventHandler
