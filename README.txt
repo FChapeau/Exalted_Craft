@@ -11,3 +11,7 @@ Installation for development
 3 a)-Execute the command "gradlew eclipse" if on Eclipse
 3 b)-Execute the command "gradlew idea" if on Idea
 4-Code!
+
+Thanks
+======
+Big thanks to the Tinker's Constructs team and the Buildcraft team for open-sourcing their code, which helped us understand how Minecraft and Forge work.
