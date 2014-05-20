@@ -30,16 +30,12 @@ public class Exaltation {
 
     //Item declarations
     public static Ingot ingot;
-    public static Ore ore;
 
     @EventHandler
     public void PreInit (FMLPreInitializationEvent event)
     {
         ingot = new Ingot();
         GameRegistry.registerItem(ingot, ingot.getUnlocalizedName());
-
-        ore = new Ore();
-        GameRegistry.registerBlock(ore, "ore");
     }
 
     @EventHandler

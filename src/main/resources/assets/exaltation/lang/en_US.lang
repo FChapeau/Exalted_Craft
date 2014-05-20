@@ -1,4 +1,13 @@
 item.ingot.name=Ingot
-item.magicalmateial.orichalcumIngot.name=Orichalcum
+
+item.magicalmaterial.orichalcumIngot.name=Orichalcum Ingot
+item.magicalmaterial.starmetalIngot.name=Starmetal Ingot
+item.magicalmaterial.soulsteelIngot.name=Soulsteel Ingot
+item.magicalmaterial.moonsilverIngot.name=Moonsilver Ingot
+item.magicalmaterial.redjadeIngot.name=Red Jade Ingot
+item.magicalmaterial.greenjadeIngot.name=Green Jade Ingot
+item.magicalmaterial.bluejadeIngot.name=Blue Jade Ingot
+item.magicalmaterial.whitejadeIngot.name=White Jade Ingot
+item.magicalmaterial.blackjadeIngot.name=Black Jade Ingotitem.magicalmateial.orichalcumIngot.name=Orichalcum
 
 item.ore.name=Ore
