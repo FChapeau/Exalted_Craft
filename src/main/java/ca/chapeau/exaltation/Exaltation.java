@@ -1,7 +1,8 @@
 package ca.chapeau.exaltation;
 
 import ca.chapeau.exaltation.magicalmaterials.Ingot;
-import ca.chapeau.exaltation.magicalmaterials.Ore;
+import ca.chapeau.exaltation.magicalmaterials.MagicalOreBlock;
+import ca.chapeau.exaltation.magicalmaterials.MagicalOreItemBlock;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.SidedProxy;
@@ -9,7 +10,6 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import cpw.mods.fml.common.registry.LanguageRegistry;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
@@ -30,12 +30,16 @@ public class Exaltation {
 
     //Item declarations
     public static Ingot ingot;
+    public static MagicalOreBlock oreBlock;
 
     @EventHandler
     public void PreInit (FMLPreInitializationEvent event)
     {
         ingot = new Ingot();
         GameRegistry.registerItem(ingot, ingot.getUnlocalizedName());
+
+	    oreBlock = new MagicalOreBlock();
+	    GameRegistry.registerBlock(oreBlock, oreBlock.getUnlocalizedName());
     }
 
     @EventHandler

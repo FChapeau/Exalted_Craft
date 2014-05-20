@@ -8,6 +8,12 @@ item.magicalmaterial.redjadeIngot.name=Red Jade Ingot
 item.magicalmaterial.greenjadeIngot.name=Green Jade Ingot
 item.magicalmaterial.bluejadeIngot.name=Blue Jade Ingot
 item.magicalmaterial.whitejadeIngot.name=White Jade Ingot
-item.magicalmaterial.blackjadeIngot.name=Black Jade Ingotitem.magicalmateial.orichalcumIngot.name=Orichalcum
+item.magicalmaterial.blackjadeIngot.name=Black Jade Ingot
 
 item.ore.name=Ore
+
+item.magicalore.redjadeOre.name=Red Jade Ore
+item.magicalore.greenjadeOre.name=Green Jade Ore
+item.magicalore.bluejadeOre.name=Blue Jade Ore
+item.magicalore.whitejadeOre.name=White Jade Ore
+item.magicalore.blackjadeOre.name=Black Jade Ore
