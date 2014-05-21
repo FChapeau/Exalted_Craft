@@ -1,6 +1,7 @@
 package ca.chapeau.exaltation.magicalmaterials;
 
 import ca.chapeau.exaltation.Exaltation;
+import net.minecraft.block.Block;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MathHelper;
@@ -21,8 +22,8 @@ public class MagicalOreItemBlock extends ItemBlock {
                     "blackjadeOre"
             };
 
-    public MagicalOreItemBlock() {
-        super(Exaltation.oreBlock);
+    public MagicalOreItemBlock(Block b) {
+        super(b);
         setHasSubtypes(true);
         setUnlocalizedName("magicalore");
     }

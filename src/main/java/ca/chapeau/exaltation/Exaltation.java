@@ -39,7 +39,7 @@ public class Exaltation {
         GameRegistry.registerItem(ingot, ingot.getUnlocalizedName());
 
 	    oreBlock = new MagicalOreBlock();
-	    GameRegistry.registerBlock(oreBlock, oreBlock.getUnlocalizedName());
+	    GameRegistry.registerBlock(oreBlock, MagicalOreItemBlock.class, oreBlock.getUnlocalizedName());
     }
 
     @EventHandler

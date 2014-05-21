@@ -10,10 +10,10 @@ item.magicalmaterial.bluejadeIngot.name=Blue Jade Ingot
 item.magicalmaterial.whitejadeIngot.name=White Jade Ingot
 item.magicalmaterial.blackjadeIngot.name=Black Jade Ingot
 
-item.ore.name=Ore
+tile.ore.name=Ore
 
-item.magicalore.redjadeOre.name=Red Jade Ore
-item.magicalore.greenjadeOre.name=Green Jade Ore
-item.magicalore.bluejadeOre.name=Blue Jade Ore
-item.magicalore.whitejadeOre.name=White Jade Ore
-item.magicalore.blackjadeOre.name=Black Jade Ore
+tile.magicalore.redjadeOre.name=Red Jade Ore
+tile.magicalore.greenjadeOre.name=Green Jade Ore
+tile.magicalore.bluejadeOre.name=Blue Jade Ore
+tile.magicalore.whitejadeOre.name=White Jade Ore
+tile.magicalore.blackjadeOre.name=Black Jade Ore
